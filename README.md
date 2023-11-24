@@ -8,3 +8,7 @@ Authorization : Tanımlı olan kullanıcının, nerelere yetkisi olduğunun kont
 
 Claims : Sistemde tanımlı olan kullanıcının demografik bilgilerinin tutulduğu alandır; username, password, email etc.
 
+JWT : Web uygulamaları için güvenli bir yetkilendirme yöntemidir. Token şeklinde kullanıcı yetkilendirme bilgilerini, uygulamalar arası güvenli bir şekilde kullanılmasını sağlar.
+
+# Peki JWT süreci nasıl işleyecek? 
+Bir token oluşturulması adına, kullanıcıya örnek olarak bir login endpointi verilir, kullanıcı demografik bilgileri ile giriş yaptığı anda sistemde kayıtlı olup olmadığı kontrol edilir. Eğer kullanıcı var ise  bilgilerinin şifreli bir şekilde kullanılması tüm uygulama içerisinde kontrol edilmesi, rol bazlı olarak nerelere ulaşabileceği gibi yetkilere bakmak adına Token bilgisini oluştururuz.
