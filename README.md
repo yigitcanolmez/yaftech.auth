@@ -12,3 +12,6 @@ JWT : Web uygulamaları için güvenli bir yetkilendirme yöntemidir. Token şek
 
 # Peki JWT süreci nasıl işleyecek? 
 Bir token oluşturulması adına, kullanıcıya örnek olarak bir login endpointi verilir, kullanıcı demografik bilgileri ile giriş yaptığı anda sistemde kayıtlı olup olmadığı kontrol edilir. Eğer kullanıcı var ise  bilgilerinin şifreli bir şekilde kullanılması tüm uygulama içerisinde kontrol edilmesi, rol bazlı olarak nerelere ulaşabileceği gibi yetkilere bakmak adına Token bilgisini oluştururuz.
+
+Temel bilgileri edindiğimize göre artık implementasyona geçebiliriz. Oluşturacağım tüm uygulamalarda ortak bir auth mekanizması kullanmak istediğim için projeme genel bir isim veriyorum, haliyle herhangi bir business kodlamadan direkt olarak Identity implementasyonunu gerçekleştireceğim.
+
