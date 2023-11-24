@@ -39,6 +39,8 @@ Data library eklenmesi gerekn NuGet paketler;
     "Secret": "3a4f8656e0298c7a8f6b1d0e2c5a971b2d7e940d8254a81f0cf72155abcf1a47"
   }
 
-Yukarıda görmüş olduğunuz değerleri appsettings'e ekleyelim; Connection string database için orası sizlere kalmış. JWT alanında üç alan var; ValidAudience üretilecek olan JWT token hangi kitle için geçerli? ilgili projenizin URL bilgilerini verebilirsiniz, ValidIssuer ise JWT tokenin hangi proje tarafından oluştuğunu gösteren alandır, Secret alanı JWT'yi doğrulamak için kullanılır,  proje özelinde saklanmalı bu bilgi paylaşılmamalıdır. Üretmek için basit bir c# programı yazabilirsiniz.
+Yukarıda görmüş olduğunuz değerleri appsettings'e ekleyelim; Connection string database için orası sizlere kalmış. 
+
+JWT içerisinde üç alan var; ValidAudience üretilecek olan JWT token hangi kitle için geçerli? ilgili projenizin URL bilgilerini verebilirsiniz, ValidIssuer ise JWT tokenin hangi proje tarafından oluştuğunu gösteren alandır, Secret alanı JWT'yi doğrulamak için kullanılır,  proje özelinde saklanmalı bu bilgi paylaşılmamalıdır. Üretmek için basit bir c# programı yazabilirsiniz.
 
 coming soon:)
