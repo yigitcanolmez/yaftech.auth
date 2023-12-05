@@ -43,4 +43,13 @@ Yukarıda görmüş olduğunuz değerleri appsettings'e ekleyelim; Connection st
 
 JWT içerisinde üç alan var; ValidAudience üretilecek olan JWT token hangi kitle için geçerli? ilgili projenizin URL bilgilerini verebilirsiniz, ValidIssuer ise JWT tokenin hangi proje tarafından oluştuğunu gösteren alandır, Secret alanı JWT'yi doğrulamak için kullanılır,  proje özelinde saklanmalı bu bilgi paylaşılmamalıdır. Üretmek için basit bir c# programı yazabilirsiniz.
 
+Data class library'si içerisine bir klasör oluşturarak User adında bir sınıf açalım;
+
+  public class User : IdentityUser
+  {
+      public string? Name { get; set; }
+
+  }
+
+  
 coming soon:)
