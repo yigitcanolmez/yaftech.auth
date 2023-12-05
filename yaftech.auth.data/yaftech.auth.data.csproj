@@ -15,4 +15,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\yaftech.auth.model\yaftech.auth.model.csproj" />
+  </ItemGroup>
+
 </Project>

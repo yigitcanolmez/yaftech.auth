@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yaftech.auth.api", "yaftech.auth.api\yaftech.auth.api.csproj", "{29143A50-8589-4F7C-B566-9C01069D4C93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yaftech.auth.api", "yaftech.auth.api\yaftech.auth.api.csproj", "{29143A50-8589-4F7C-B566-9C01069D4C93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yaftech.auth.data", "yaftech.auth.data\yaftech.auth.data.csproj", "{9427CD28-9B3E-4DAF-8D47-913859BB0629}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yaftech.auth.data", "yaftech.auth.data\yaftech.auth.data.csproj", "{9427CD28-9B3E-4DAF-8D47-913859BB0629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yaftech.auth.model", "yaftech.auth.model\yaftech.auth.model.csproj", "{FD97CBFB-9D04-486E-8C28-D2105D807F3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9427CD28-9B3E-4DAF-8D47-913859BB0629}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9427CD28-9B3E-4DAF-8D47-913859BB0629}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9427CD28-9B3E-4DAF-8D47-913859BB0629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD97CBFB-9D04-486E-8C28-D2105D807F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD97CBFB-9D04-486E-8C28-D2105D807F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD97CBFB-9D04-486E-8C28-D2105D807F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD97CBFB-9D04-486E-8C28-D2105D807F3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
